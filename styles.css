@@ -46,10 +46,11 @@ header h1{
 
 .new-task-container {
   background-color: #fff;
-  padding: 30px 20px;
+  padding: 30px 40px;
   border-radius: 5px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
   display: flex;
+  min-width: 100%;
 }
 
 .new-task-container input {
@@ -64,6 +65,7 @@ header h1{
 .new-task-container input:focus {
   outline: none;
   border-color: #41b883;
+  min-width: 100%;
 }
 
 .new-task-button {
@@ -78,6 +80,7 @@ header h1{
   padding: 12px;
   margin-left: 12px;
   cursor: pointer;
+  min-width: 100%;
 }
 
 /* Input inferior 1*/
