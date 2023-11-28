@@ -4,9 +4,11 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
+  html{
+    height: 100vh;
+}
 body {
-  height: 100%;
+  padding: 20px 20px;
   background: #1f8b5b;
   display: flex;
   align-items: center;
@@ -17,7 +19,7 @@ body {
   border: 2px solid #fff;
   padding: 30px 40px;
   width: 40%;
-  min-width: 500px;
+  min-width: 100%;
 }
 
 header{
@@ -137,18 +139,18 @@ header h1{
 /* Reponsivel */  
 }
 @media screen and (max-width: 768px) {    
-  .container{
+  .html{
   display: block;
 }    
-  .container_caixa{
+  .html_caixa{
   margin: 10em 10em;
 }}
 
 @media screen and (min-width: 768px) {    
-  .container{
+  .html{
   display: block;
 }    
-  .container_caixa{
+  .html_caixa{
   margin: 5em 5em;
 }}
 
