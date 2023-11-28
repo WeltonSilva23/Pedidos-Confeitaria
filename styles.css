@@ -157,18 +157,18 @@ header h1{
 }}
 
 @media screen and (max-width: 1020px) {    
-  .new-task-container{
+  .container{
   display: block;
 }    
-  .new-task-container_caixa{
+  .container_caixa{
   margin: 10em 10em;
 }}
 
 @media screen and (min-width: 1020px) {    
-  .new-task-container{
+  .container{
   display: block;
 }    
-  .new-task-container_caixa{
+  container_caixa{
   margin: 5em 5em;
 }}
 
