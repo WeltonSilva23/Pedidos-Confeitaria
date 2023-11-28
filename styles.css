@@ -79,7 +79,7 @@ header h1{
   padding: 12px;
   margin-left: 12px;
   cursor: pointer;
-  min-width: 20%;
+  min-width: 25%;
 }
 
 /* Input inferior 1*/
@@ -174,12 +174,12 @@ header h1{
 }}
 
 .rodape {
-  background-color: #333;
+background-color: #333;
 color: #fff;
 padding: 0%;
 text-align: center;
 margin-top: 3%;
-  font-size: 5px;
+font-size: 5px;
   
   
 }
