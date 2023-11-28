@@ -65,7 +65,7 @@ header h1{
 .new-task-container input:focus {
   outline: none;
   border-color: #41b883;
-  min-width: 100%;
+  min-width: 23%;
 }
 
 .new-task-button {
